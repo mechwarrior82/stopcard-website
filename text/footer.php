@@ -1,0 +1,1 @@
+&copy;2013 Stopcard, All Rights Reserved.  <a href="#" id="back_to_top">Back to Top</a>

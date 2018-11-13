@@ -1,0 +1,80 @@
+#contact-us.section {
+	background-image:url(/images/contact_map.jpg);
+	min-height: 500px;
+	background-size: cover;
+}
+#contact-us p {
+}
+#contact_form_holder {
+	max-width: 740px;
+}
+#contact-us a:link {
+	color:#FFF;
+}
+#contact_form input, #contact_form textarea {
+	width:100%;
+	margin:0;
+	padding:0;
+	background: none;
+	border:none;
+	outline: none;
+	font-size:18px;
+}
+.input_around {
+	position: relative;
+	background:rgba(255,255,255,.2);
+	border-radius: 3px;
+	border:1px solid rgba(255,255,255,.2);
+	padding:6px 10px;
+	margin-bottom:10px;
+}
+.helper {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#send_contact>input {
+	color:#ffffff;
+	background:rgba(255,255,255,.2);
+	border-radius: 3px;
+	border:1px solid rgba(255,255,255,.2);
+	padding:6px 10px;
+
+}
+#send_contact>input:hover {
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,0.58);
+}
+.safetell_logo {
+	width:180px;
+}
+#contact-us p {
+	line-height: 1.3em;
+	margin-bottom:25px;
+}
+#contact-us .col1 {
+	width:30%;
+	min-width:245px;
+}
+#contact-us .col2 {
+	width:70%;
+}
+@media screen and (max-width: 1031px) {
+	#contact-us .col1 {
+		width:50%;
+		min-width:0px;
+	}
+	#contact-us .col2 {
+		width:50%;
+	}
+
+}
+
+@media screen and (max-width: 700px) {
+	#contact-us.section {
+		background-image:url(/images/contact_map@2x.jpg);
+		background-size:cover;
+	}
+	#contact_form_holder {
+	max-width: 100%;
+	}
+}
